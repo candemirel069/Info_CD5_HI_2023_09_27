@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WebApp.BL.Repository;
 using WebApp.Data.Entities;
 
 namespace WebApp.UI
@@ -12,6 +13,10 @@ namespace WebApp.UI
             var constr = "Initial Catalog=MyShopDB;Data source=(localdb)\\mssqllocaldb;Integrated Security=true";
             builder.Services.AddDbContext<MyShopContext>(
                 options=> options.UseSqlServer(constr));
+
+            builder.Services.AddTransient<CategoryRepository>();
+            builder.Services.AddTransient<ProductRepository>();
+
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();

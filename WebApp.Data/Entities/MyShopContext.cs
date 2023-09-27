@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 
 namespace WebApp.Data.Entities;
 
-public class Product
+public interface IEntityBase
+{
+   int Id { get; set; }
+}
+
+public class Product:IEntityBase
 {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -15,15 +20,15 @@ public class Product
     public int Length { get; set; }
 
     public int CategoryId { get; set; }
-    public Category Category { get; set; }
+    public Category? Category { get; set; }
 }
 
-public class Category
+public class Category:IEntityBase
 {
     public int Id { get; set; }
     public string Name { get; set; }
     
-    public List<Product> Products { get; set; }
+    public List<Product>? Products { get; set; }
 }
 
 public class MyShopContext : DbContext
