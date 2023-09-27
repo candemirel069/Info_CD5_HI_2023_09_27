@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.UI", "WebApp.UI\WebApp.UI.csproj", "{95C3A803-5F38-4F66-A05C-D57EDFD58C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Data", "WebApp.Data\WebApp.Data.csproj", "{050B9A7E-2CE5-405F-92E9-B637E6A6AD00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.BL", "WebApp.BL\WebApp.BL.csproj", "{CC61C540-2C30-412C-8E4A-26D59AADC052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95C3A803-5F38-4F66-A05C-D57EDFD58C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C3A803-5F38-4F66-A05C-D57EDFD58C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C3A803-5F38-4F66-A05C-D57EDFD58C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C3A803-5F38-4F66-A05C-D57EDFD58C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050B9A7E-2CE5-405F-92E9-B637E6A6AD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050B9A7E-2CE5-405F-92E9-B637E6A6AD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050B9A7E-2CE5-405F-92E9-B637E6A6AD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050B9A7E-2CE5-405F-92E9-B637E6A6AD00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC61C540-2C30-412C-8E4A-26D59AADC052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC61C540-2C30-412C-8E4A-26D59AADC052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC61C540-2C30-412C-8E4A-26D59AADC052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC61C540-2C30-412C-8E4A-26D59AADC052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73E23FDA-1189-4367-801A-0640D03BFD67}
+	EndGlobalSection
+EndGlobal
