@@ -1,1 +1,3 @@
-# Info_CD5_HI_2023_09_27
+# Repo
+- Add-Migration InitDb -Project WebApp.Data
+- Update-Database -Project WebApp.Data -StartupProject WebApp.UI

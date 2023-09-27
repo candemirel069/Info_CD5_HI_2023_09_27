@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Data", "WebApp.Data\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.BL", "WebApp.BL\WebApp.BL.csproj", "{CC61C540-2C30-412C-8E4A-26D59AADC052}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{104C2A59-F80C-443C-AA5E-4029FCC7E805}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

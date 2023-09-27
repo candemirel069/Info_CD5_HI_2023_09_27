@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApp.Data.Entities;
 
@@ -10,9 +11,11 @@ using WebApp.Data.Entities;
 namespace WebApp.Data.Migrations
 {
     [DbContext(typeof(MyShopContext))]
-    partial class MyShopContextModelSnapshot : ModelSnapshot
+    [Migration("20230927083841_Relations")]
+    partial class Relations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -1,0 +1,8 @@
+Entity	  ->    Table
+
+App-CRUD		DB
+
+Create			Insert
+Read			Select
+Update			Update
+Delete			Delete
